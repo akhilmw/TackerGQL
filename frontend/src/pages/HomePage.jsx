@@ -54,9 +54,10 @@ const HomePage = () => {
 
 			categories.forEach((category) => {
 				if (category === "saving") {
-					backgroundColors.push("rgba(75, 192, 192)");
-					borderColors.push("rgba(75, 192, 192)");
-				} else if (category === "expense") {
+					backgroundColors.push("rgba(144, 238, 144)"); // Light green
+					borderColors.push("rgba(144, 238, 144)"); // Light green
+				}
+				 else if (category === "expense") {
 					backgroundColors.push("rgba(255, 99, 132)");
 					borderColors.push("rgba(255, 99, 132)");
 				} else if (category === "investment") {
@@ -95,9 +96,10 @@ const HomePage = () => {
 		<>
 			<div className='flex flex-col gap-6 items-center max-w-7xl mx-auto z-20 relative justify-center'>
 				<div className='flex items-center'>
-					<p className='md:text-4xl text-2xl lg:text-4xl font-bold text-center relative z-50 mb-4 mr-4 bg-gradient-to-r from-pink-600 via-indigo-500 to-pink-400 inline-block text-transparent bg-clip-text'>
-						Spend wisely, track wisely
-					</p>
+				<p className='md:text-4xl text-2xl lg:text-4xl font-bold text-center relative z-50 mb-4 mr-4 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text'>
+    Smart Spending, Smarter Tracking
+</p>
+
 					<img
 						src={authUserData?.authUser.profilePicture}
 						className='w-11 h-11 rounded-full border cursor-pointer'
