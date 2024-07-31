@@ -1,4 +1,4 @@
-# TrackerGQL ![TrackerGQL](frontend/public/logo.png)
+# TrackerGQL ![TrackerGQL](screenshots/logo.png)
 
 TrackerGQL is a smart expense management application that allows you to track and manage your expenses on the fly. The app provides a convenient way to add expenses, specifying details such as amount, type (saving, expense, investment), payment type, location, and date. An interactive chart displays the distribution of your expenses, giving you a clear overview of your spending. You can also edit or delete existing transactions, making it easy to keep your records up to date.
 
